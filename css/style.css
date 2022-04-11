@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.grid-container {
+	width: 1140px;
+	margin: 82px auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr;
+	grid-auto-rows: 1fr;
+	gap: 60px;
+}
+
+img {
+	width: 100%;
+}
+
+.grid-elem {
+	height: 260px;
+	width: 240px;
+	/*background-color: rgba(1, 1, 96, 1);*/
+}
+
+.discr {
+	margin-top: 15px;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000000;
+	text-align: left;
+}
